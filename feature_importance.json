@@ -1,0 +1,92 @@
+{
+  "feature_importance": [
+    {
+      "feature": "support_calls",
+      "importance": 0.21893
+    },
+    {
+      "feature": "total_spend",
+      "importance": 0.10025
+    },
+    {
+      "feature": "payment_delay",
+      "importance": 0.05951
+    },
+    {
+      "feature": "age",
+      "importance": 0.04662
+    },
+    {
+      "feature": "gender",
+      "importance": 0.0449
+    },
+    {
+      "feature": "last_interaction",
+      "importance": 0.04144
+    },
+    {
+      "feature": "contract_length",
+      "importance": 0.02233
+    },
+    {
+      "feature": "tenure",
+      "importance": 0.00173
+    },
+    {
+      "feature": "usage_frequency",
+      "importance": 0.00099
+    },
+    {
+      "feature": "subscription_type",
+      "importance": 7e-05
+    }
+  ],
+  "encoders": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "subscription_type": [
+      "Basic",
+      "Premium",
+      "Standard"
+    ],
+    "contract_length": [
+      "Annual",
+      "Monthly",
+      "Quarterly"
+    ]
+  },
+  "thresholds": {
+    "support_calls": {
+      "p50": 3.0,
+      "p75": 6.0,
+      "p90": 9.0
+    },
+    "payment_delay": {
+      "p50": 12.0,
+      "p75": 19.0,
+      "p90": 25.0
+    },
+    "last_interaction": {
+      "p50": 14.0,
+      "p75": 22.0,
+      "p90": 27.0
+    },
+    "total_spend": {
+      "p50": 661.0,
+      "p75": 830.0,
+      "p90": 932.0
+    },
+    "tenure": {
+      "p50": 32.0,
+      "p75": 46.0,
+      "p90": 55.0
+    },
+    "usage_frequency": {
+      "p50": 16.0,
+      "p75": 23.0,
+      "p90": 28.0
+    }
+  }
+}

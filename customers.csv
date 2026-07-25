@@ -1,0 +1,13 @@
+CustomerID,Customer_Name,Age,Gender,Tenure,Usage Frequency,Support Calls,Payment Delay,Subscription Type,Contract Length,Total Spend,Last Interaction,Churn
+290822,raju,40,Male,21,14,0,11,Basic,Annual,592.83,9,0
+172430,mohan,39,Male,58,4,2,8,Standard,Monthly,694,15,1
+263612,sohan,24,Male,49,29,2,5,Basic,Quarterly,992.95,17,0
+436343,a,35,Male,25,21,2,1,Premium,Quarterly,797.47,9,0
+73352,b,52,Female,50,22,10,4,Basic,Annual,187,9,1
+56652,c,41,Female,20,22,0,15,Basic,Monthly,814,6,1
+346111,d,22,Female,33,24,0,11,Standard,Quarterly,707.09,10,0
+296416,e,42,Male,27,18,4,2,Premium,Quarterly,636.3,23,0
+144287,f,44,Male,5,4,3,26,Basic,Monthly,178,5,1
+256270,sohan,37,Female,2,21,6,16,Premium,Quarterly,769.48,21,1
+383213,g,33,Female,41,6,3,20,Basic,Annual,946.32,8,0
+32610,raju,24,Male,10,6,9,25,Premium,Annual,167,12,1
